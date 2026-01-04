@@ -48,7 +48,7 @@
 
 **Последовательность действий:**
 1. Клонирование репозитория
-``` git clone https://github.com/VladimirKK/.....```
+``` git clone https://github.com/VladimirKK/recommendation-service```
 2. Создание виртуального окружения в появившемся каталоге:
 ``` python -m venv venv ```
 3. Для активации на Windows | MacOS:
