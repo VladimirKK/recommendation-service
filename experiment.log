@@ -1,0 +1,51 @@
+2025-12-06 17:17:12.625 | INFO     | app:get_recommended_feed:192 - ML model for user 890
+2025-12-06 17:18:04.055 | INFO     | app:get_recommended_feed:192 - ML model for user 11000
+2025-12-06 17:18:11.414 | INFO     | app:get_recommended_feed:192 - ML model for user 11020
+2025-12-06 17:18:16.189 | INFO     | app:get_recommended_feed:189 - Dl model for user 11050
+2025-12-06 17:18:52.111 | INFO     | app:get_recommended_feed:189 - Dl model for user 29000
+2025-12-06 17:20:26.933 | INFO     | app:get_recommended_feed:192 - ML model for user 160000
+2025-12-06 18:04:38.754 | INFO     | app:get_recommended_feed:195 - ML model for user 160000
+2025-12-06 18:04:41.700 | INFO     | app:get_recommended_feed:195 - ML model for user 160000
+2025-12-06 18:04:45.936 | INFO     | app:get_recommended_feed:195 - ML model for user 456
+2025-12-06 18:04:53.351 | INFO     | app:get_recommended_feed:195 - ML model for user 678
+2025-12-06 18:04:58.832 | INFO     | app:get_recommended_feed:195 - ML model for user 5689
+2025-12-06 18:05:03.497 | INFO     | app:get_recommended_feed:195 - ML model for user 244
+2025-12-06 18:05:08.601 | INFO     | app:get_recommended_feed:192 - Dl model for user 9999
+2025-12-06 18:05:39.585 | INFO     | app:get_recommended_feed:192 - Dl model for user 56789
+2025-12-06 18:08:05.785 | INFO     | app:get_recommended_feed:192 - Dl model for user 56789
+2025-12-06 18:08:09.771 | INFO     | app:get_recommended_feed:195 - ML model for user 89000
+2025-12-06 18:21:53.786 | INFO     | app:get_recommended_feed:193 - Dl model for user 99999
+2025-12-06 18:21:58.627 | INFO     | app:get_recommended_feed:193 - Dl model for user 1000
+2025-12-06 18:22:03.530 | INFO     | app:get_recommended_feed:193 - Dl model for user 1400
+2025-12-06 18:22:09.569 | INFO     | app:get_recommended_feed:193 - Dl model for user 14600
+2025-12-06 18:22:13.993 | INFO     | app:get_recommended_feed:196 - ML model for user 1700
+2025-12-07 11:23:29.898 | INFO     | app:get_recommended_feed:192 - Dl model for user 1700
+2025-12-07 11:23:31.034 | INFO     | app:get_recommended_feed:192 - Dl model for user 1700
+2025-12-07 11:23:41.511 | INFO     | app:get_recommended_feed:195 - ML model for user 34500
+2025-12-07 11:23:50.573 | INFO     | app:get_recommended_feed:192 - Dl model for user 88770
+2025-12-07 11:23:57.077 | INFO     | app:get_recommended_feed:192 - Dl model for user 99000
+2025-12-07 11:24:00.781 | INFO     | app:get_recommended_feed:195 - ML model for user 96000
+2025-12-07 11:36:08.859 | INFO     | app:get_recommended_feed:191 - Dl model for user 144000
+2025-12-07 11:36:13.021 | INFO     | app:get_recommended_feed:194 - ML model for user 142000
+2025-12-07 12:05:08.871 | INFO     | app:get_recommended_feed:202 - ML model for user 142000
+2026-01-02 20:28:51.497 | INFO     | app:get_recommended_feed:184 - ML model for user 142000
+2026-01-02 20:29:59.685 | ERROR    | app:get_recommended_feed:191 - Error processing user 142000: Лимит не может превышать 10 постов
+2026-01-02 20:30:07.423 | INFO     | app:get_recommended_feed:184 - ML model for user 142000
+2026-01-02 20:30:11.037 | ERROR    | app:get_recommended_feed:191 - Error processing user 142000: Лимит не может превышать 10 постов
+2026-01-02 20:32:14.309 | ERROR    | app:get_recommended_feed:191 - Error processing user 142000: Дата должна быть позже 01.10.2021
+2026-01-02 20:32:25.977 | INFO     | app:get_recommended_feed:181 - Dl model for user 19000
+2026-01-02 20:53:34.236 | INFO     | app:get_recommended_feed:184 - Dl model for user 45700
+2026-01-02 20:53:34.236 | INFO     | app:get_recommended_feed:184 - Dl model for user 45700
+2026-01-02 20:53:34.237 | WARNING  | app:get_recommended_feed:196 - Validation error for user 100: Пользователь не найден, невозможно подобрать рекомендацию
+2026-01-02 20:53:34.281 | ERROR    | app:get_recommended_feed:202 - Error processing user 45700: single positional indexer is out-of-bounds
+2026-01-02 20:53:34.281 | ERROR    | app:get_recommended_feed:202 - Error processing user 45700: single positional indexer is out-of-bounds
+2026-01-02 20:54:12.048 | INFO     | app:get_recommended_feed:184 - Dl model for user 266
+2026-01-02 20:54:28.172 | INFO     | app:get_recommended_feed:187 - ML model for user 899
+2026-01-02 20:58:11.555 | INFO     | app:get_recommended_feed:184 - Dl model for user 163205
+2026-01-02 20:59:28.679 | INFO     | app:get_recommended_feed:187 - ML model for user 168552
+2026-01-02 20:59:33.052 | WARNING  | app:get_recommended_feed:196 - Validation error for user 168553: Пользователь не найден, невозможно подобрать рекомендацию
+2026-01-02 20:59:37.793 | INFO     | app:get_recommended_feed:187 - ML model for user 168552
+2026-01-02 20:59:54.425 | INFO     | app:get_recommended_feed:184 - Dl model for user 678
+2026-01-02 21:55:28.434 | INFO     | app:get_recommended_feed:187 - ML model for user 300
+2026-01-03 20:11:52.054 | INFO     | app:get_recommended_feed:185 - ML model for user 144000
+2026-01-03 21:09:15.419 | INFO     | app:get_recommended_feed:185 - ML model for user 144000

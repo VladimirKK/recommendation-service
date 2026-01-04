@@ -1,0 +1,7 @@
+ПРИМЕРЫ ЗАПРОСОВ НА СЕРВЕР: 
+
+1. http://127.0.0.1:8000/post/recommendations/?id=678&time=2024-12-29&limit=3
+2. http://127.0.0.1:8000/post/recommendations/?id=5431&time=2021-10-08&limit=5
+3. http://127.0.0.1:8000/post/recommendations/?id=144000&time=2026-01-01&limit=5
+4. http://127.0.0.1:8000/post/recommendations/?id=10&time=2026-01-01&limit=5 # error
+5. http://127.0.0.1:8000/post/recommendations/?id=77890&time=2026-01-01&limit=20 # error
