@@ -49,3 +49,9 @@
 2026-01-02 21:55:28.434 | INFO     | app:get_recommended_feed:187 - ML model for user 300
 2026-01-03 20:11:52.054 | INFO     | app:get_recommended_feed:185 - ML model for user 144000
 2026-01-03 21:09:15.419 | INFO     | app:get_recommended_feed:185 - ML model for user 144000
+2026-01-19 21:53:52.822 | INFO     | app:get_recommended_feed:187 - ML model for user 144000
+2026-01-19 21:53:52.879 | INFO     | app:recommendations_ML:132 - Choise post: 31
+2026-01-19 22:19:40.061 | INFO     | app:get_recommended_feed:184 - Dl model for user 18000
+2026-01-19 22:19:40.114 | INFO     | app:get_recommended_feed:187 - DL model selected posts: [573, 5608]
+2026-01-19 22:20:46.154 | INFO     | app:get_recommended_feed:189 - ML model for user 666
+2026-01-19 22:20:46.223 | INFO     | app:get_recommended_feed:192 - ML model selected posts: [5892, 332, 15]

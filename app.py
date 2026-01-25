@@ -43,7 +43,7 @@ def load_features() -> pd.DataFrame:
         SELECT *
         FROM public.feed_data
         WHERE action='like'
-        limit 9000000""")
+        limit 1000000""")
     return feed_data
 features_data = load_features() 
 
@@ -129,6 +129,7 @@ def recommendations_ML(id: int, time: datetime, limit: int):
             'topic': posts.loc[idx, 'topic'],
         }
         final_posts.append(myDict)
+    #logger.info(f"Choise post: {myDict['id']}") 
     return final_posts
       
 #Функция DL
@@ -163,6 +164,7 @@ def recommendations_DL(id: int, time: datetime, limit: int):
             'topic': posts.loc[idx, 'topic'],
         }
         final_posts.append(myDict)
+    #logger.info(f"Choise post: {myDict['id']}")    
     return final_posts
 
 @app.get("/post/recommendations/", response_model=Response)
@@ -181,9 +183,13 @@ def get_recommended_feed(id: int, time: datetime, limit: int, exp_group: str = N
         if exp_group == 'test':
             logger.info(f'Dl model for user {id}')
             recs = recommendations_DL(id, time, limit)
+            rec_ids = [post['id'] for post in recs]
+            logger.info(f'DL model selected posts: {rec_ids}')
         elif exp_group == 'control':
             logger.info(f'ML model for user {id}')
             recs = recommendations_ML(id, time, limit)
+            rec_ids = [post['id'] for post in recs]
+            logger.info(f'ML model selected posts: {rec_ids}')
         else:
             raise HTTPException(status_code=404, detail="No recommendations found")
     
