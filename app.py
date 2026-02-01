@@ -43,7 +43,7 @@ def load_features() -> pd.DataFrame:
         SELECT *
         FROM public.feed_data
         WHERE action='like'
-        limit 1000000""")
+        limit 8000000""")
     return feed_data
 features_data = load_features() 
 
